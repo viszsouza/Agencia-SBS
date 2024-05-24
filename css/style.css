@@ -1,0 +1,345 @@
+@import url("base.css");
+
+/* Title */
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    gap: 10px;
+}
+
+.title span{
+    color: var(--roxo);
+}
+
+.title h1{
+    text-align: center;
+    font-size: 40px;
+    color: var(--laranja);
+    font-weight: bold;
+}
+.title p{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--preto);
+}
+
+.btn-title{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-title a{
+    color: var(--branco);
+    border: none;
+    font-weight: 700;
+}
+
+.btn-title1{
+    border: none;
+    color: var(--branco);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--roxo);
+    box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+.btn-title1:hover{
+    transform: scale(1.05);
+}
+
+.btn-title2{
+    border: none;
+    color: var(--branco);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--laranja);
+    box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+.btn-title2:hover{
+    transform: scale(1.05);
+}
+
+/* Vantagens */
+
+.vantagens{
+    background-color: var(--roxo); 
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.title-vantagens{
+    margin-top: 40px;
+    text-align: center;
+    color: var(--branco);
+    font-size: 30px;
+}
+
+.container-vantagens{
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.item-vantagens{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-vantagens img{
+    width: 200px;
+    object-fit: cover;
+}
+
+.item-vantagens h2{
+    margin-top: 20px;
+    color: var(--branco);
+}
+
+.item-vantagens p{
+    width: 90%;
+    height: 100px;
+    color: var(--branco);
+    font-weight: 600;
+    text-align: justify;
+}
+
+/* Escolha */
+
+.escolha{
+    padding: 40px 20px;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.escolha-img img{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    transition: 300ms;
+}
+
+.escolha-img img:hover{
+    opacity: 90%;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.text-escolha{
+    width: 30%;
+}
+
+.text-escolha h1{
+    color: var(--roxo);
+}
+
+.text-escolha1{
+    padding-bottom: 20px;
+    border-bottom: 3px solid var(--roxo);
+}
+
+.text-escolha2{
+    margin-top: 20px;
+}
+
+.text-escolha3{
+    margin-top: 20px;
+}
+
+.btn-escolha{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-escolha button{
+    background-color: var(--laranja);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn-escolha button:hover{
+    transform: scale(1.05);
+}
+
+.btn-escolha a{
+    color: var(--branco);
+    font-weight: 600;
+}
+
+/* Planos */
+
+.planos{
+    background-color: var(--roxo);
+    padding: 40px 20px 80px 20px;
+}
+
+.container-planos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.item-plano{
+    margin-top: 40px;
+    background-color: var(--branco);
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.item-plano h1{
+    color: var(--roxo);
+    font-size: 20px;
+}
+
+.item-plano h2{
+    margin-top: 10px;
+    color: var(--laranja);
+    font-size: 18px;
+}
+
+.item-plano p{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Como funciona? */
+
+.info{
+    background-color: var(--roxo-escuro);
+    padding: 40px;
+}
+
+.title-info{
+    color: var(--branco);
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.title-info span{
+    color: var(--laranja);
+    font-size: 40px;
+}
+
+.container-info{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-top: 40px;
+    border-top: 3px solid var(--branco);
+}
+
+.item-info{
+    width: 200px;
+}
+
+.item-info h1{
+    color: var(--laranja);
+    font-size: 25px;
+}
+
+.item-info h2{
+    color: var(--branco);
+}
+
+.item-info p{
+    color: var(--branco);
+}
+
+/*Nossa História */
+
+.historia{
+    background-color: var(--roxo);
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.img-logo img{
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: var(--shadow);
+}
+
+.text-historia{
+    color: var(--branco);
+    width: 30%;
+}
+
+.text-historia h1{
+    font-size: 40px;
+}
+
+.btn-historia{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-historia1 a{
+    color: var(--branco);
+}
+
+.btn-historia1{
+    background-color: var(--laranja);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn-historia1:hover{
+    transform: scale(1.05);
+}
+
+.btn-historia2 a{
+    color: var(--laranja);
+}
+
+.btn-historia2{
+    background-color: var(--branco);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn-historia2:hover{
+    transform: scale(1.05);
+}
+
