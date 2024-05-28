@@ -1,4 +1,5 @@
 @import url("base.css");
+@import url("carrossel.css");
 
 /* Title */
 
@@ -128,7 +129,7 @@
     align-items: center;
 }
 
-.escolha-img img{
+.escolha img{
     width: 400px;
     height: 500px;
     border-radius: 25px;
@@ -284,7 +285,7 @@
     gap: 10%;
 }
 
-.img-logo img{
+.historia img{
     width: 400px;
     border-radius: 25px;
     box-shadow: var(--shadow);
@@ -343,3 +344,80 @@
     transform: scale(1.05);
 }
 
+@media (max-width: 750px) {
+    .title p{
+        width: 100%;
+    }
+
+    .container-vantagens{
+        flex-direction: column;
+    }
+
+    .item-vantagens{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .item-vantagens img{
+        width: 60%;
+    }
+
+    .item-vantagens p{
+        width: 100%;
+    }
+
+    .escolha{
+        flex-direction: column;
+    }
+
+    .escolha img{
+        width: 100%;
+    }
+
+    .btn-escolha{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-escolha{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .container-planos{
+        flex-direction: column;
+    }
+
+    .item-plano{
+        width: 100%;
+    }
+
+    .container-info{
+        flex-direction: column;
+    }
+
+    .item-info{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .historia{
+        flex-direction: column;
+    }
+
+    .historia img{
+        width: 100%;
+    }
+
+    .text-historia{
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .btn-historia{
+        display: flex;
+        justify-content: center;
+    }
+}
