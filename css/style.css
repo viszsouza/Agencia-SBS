@@ -275,7 +275,6 @@
 }
 
 /*Nossa História */
-
 .historia{
     background-color: var(--roxo);
     padding: 40px 20px;
@@ -344,6 +343,79 @@
     transform: scale(1.05);
 }
 
+.chamada{
+    background-color: var(--roxo);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.chamada h1{
+    color: var(--laranja);
+    font-size: 30px;
+}
+
+.chamada p{
+    color: var(--branco);
+}
+
+.chamada button{
+    margin-top: 20px;
+    background-color: var(--laranja);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.chamada button:hover{
+    transform: scale(1.05);
+}
+
+.chamada a{
+    color: var(--branco);
+}
+
+.contato{
+    background-color: var(--laranja);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    
+}
+
+.form{
+    background-color: var(--branco);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form input{
+    background-color: var(--roxo);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--branco);
+    border: none;
+}
+
+.form input::placeholder{
+    color: var(--branco);
+}
+
 @media (max-width: 750px) {
     .title p{
         width: 100%;
@@ -400,6 +472,10 @@
     .item-info{
         margin-top: 20px;
         width: 100%;
+    }
+
+    .title-info{
+        text-align: justify;
     }
 
     .historia{
