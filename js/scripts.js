@@ -44,3 +44,31 @@ document.querySelectorAll('.carousel-button').forEach(e => e.addEventListener('c
     behavior: 'smooth',
   });
 }));
+
+// Planos
+
+// Obtenha todos os botões que devem abrir o modal
+const button_1 = document.getElementById("btn-planos-1");
+const button_2 = document.getElementById("btn-planos-2");
+const button_3 = document.getElementById("btn-planos-3");
+
+// Obtenha os itens
+const escondido_1 = document.getElementById("esc-1");
+const escondido_2 = document.getElementById("esc-2");
+const escondido_3 = document.getElementById("esc-3");
+
+// Função para abrir o item
+button_1.addEventListener("click", function() {
+  escondido_1.style.display = "flex"
+});
+
+button_2.addEventListener("click", function() {
+  escondido_2.style.display = "flex"
+});
+
+button_3.addEventListener("click", function() {
+  escondido_3.style.display = "flex"
+});
+
+
+

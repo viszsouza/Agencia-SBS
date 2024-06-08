@@ -228,6 +228,36 @@
     font-weight: 500;
 }
 
+.escondido-1{
+    display: none;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: var(--laranja);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.escondido-2{
+    display: none;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: var(--laranja);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.escondido-3{
+    display: none;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: var(--laranja);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
 /* Como funciona? */
 
 .info{
