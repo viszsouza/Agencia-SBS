@@ -25,6 +25,10 @@ html{
     scroll-behavior: smooth;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* Estilo para impedir de selecionar imagens e arrastá-las pela tela */
 img {
     user-select: none;
@@ -60,6 +64,14 @@ nav{
     padding-block: 15px;
     font-weight: 600;
     transition: 300ms;
+}
+
+.roxo{
+    color: var(--roxo);
+}
+
+.roxo:hover{
+    color: var(--laranja);
 }
 
 .nav-orç{

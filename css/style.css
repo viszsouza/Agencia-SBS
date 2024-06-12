@@ -1,8 +1,22 @@
 @import url("base.css");
 @import url("carrossel.css");
 
-/* Title */
 
+/* Whatsapp */
+.whats{
+    position: fixed;
+    right: -350px;
+    bottom: 40px;
+}
+
+.whats img{
+    background-color: var(--roxo-escuro);
+    width: 20%;
+    border-radius: 100%;
+    box-shadow: var(--shadow);
+}
+
+/* Title */
 .title{
     display: flex;
     flex-direction: column;
@@ -39,6 +53,7 @@
 .btn-title a{
     color: var(--branco);
     border: none;
+    padding: 10px;
     font-weight: 700;
 }
 
@@ -171,6 +186,10 @@
     gap: 20px;
 }
 
+.btn-escolha a{
+    padding: 5px;
+}
+
 .btn-escolha button{
     background-color: var(--laranja);
     padding: 10px 20px;
@@ -232,30 +251,54 @@
     display: none;
     flex-direction: column;
     margin-top: 30px;
-    background-color: var(--laranja);
+    background-color: var(--roxo);
     border-radius: 15px;
     padding: 20px;
     box-shadow: var(--shadow);
+}
+
+.escondido-1 h1{
+    color: var(--laranja);
+}
+
+.escondido-1 p{
+    color: var(--branco);
 }
 
 .escondido-2{
     display: none;
     flex-direction: column;
     margin-top: 30px;
-    background-color: var(--laranja);
+    background-color: var(--roxo);
     border-radius: 15px;
     padding: 20px;
     box-shadow: var(--shadow);
+}
+
+.escondido-2 h1{
+    color: var(--laranja);
+}
+
+.escondido-2 p{
+    color: var(--branco);
 }
 
 .escondido-3{
     display: none;
     flex-direction: column;
     margin-top: 30px;
-    background-color: var(--laranja);
+    background-color: var(--roxo);
     border-radius: 15px;
     padding: 20px;
     box-shadow: var(--shadow);
+}
+
+.escondido-3 h1{
+    color: var(--laranja);
+}
+
+.escondido-3 p{
+    color: var(--branco);
 }
 
 /* Como funciona? */
@@ -373,6 +416,8 @@
     transform: scale(1.05);
 }
 
+/* Chamada */
+
 .chamada{
     background-color: var(--roxo);
     padding: 40px 20px;
@@ -411,6 +456,8 @@
     color: var(--branco);
 }
 
+/* Contato */
+
 .contato{
     background-color: var(--laranja);
     display: flex;
@@ -422,8 +469,10 @@
 
 .form{
     background-color: var(--branco);
+    width: 30%;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: var(--shadow);
 }
 
 form{
@@ -436,14 +485,31 @@ form{
 
 .form input{
     background-color: var(--roxo);
+    width: 100%;
     padding: 10px 20px;
     border-radius: 10px;
     color: var(--branco);
     border: none;
+    box-shadow: var(--shadow);
 }
 
 .form input::placeholder{
     color: var(--branco);
+}
+
+form button{
+    background-color: rgb(76, 234, 76);
+    color: var(--branco);
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+form button:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 750px) {

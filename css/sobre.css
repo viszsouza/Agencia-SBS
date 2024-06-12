@@ -1,0 +1,46 @@
+@import url("base.css");
+
+main{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--roxo);
+}
+
+main h1{
+    color: var(--laranja);
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+span{
+    color: var(--laranja);
+}
+
+.imagem img:hover{
+    transform: scale(1.05);
+}
+
+main p{
+    color: var(--branco);
+    font-size: 20px;
+}
+
+.textos{
+    width: 50%;
+    text-align: justify;
+}
