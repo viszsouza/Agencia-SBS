@@ -60,13 +60,19 @@ const escondido_3 = document.getElementById("esc-3");
 // Função para abrir o item
 button_1.addEventListener("click", function() {
   escondido_1.style.display = "flex"
+  escondido_2.style.display = "flex"
+  escondido_3.style.display = "flex"
 });
 
 button_2.addEventListener("click", function() {
+  escondido_1.style.display = "flex"
   escondido_2.style.display = "flex"
+  escondido_3.style.display = "flex"
 });
 
 button_3.addEventListener("click", function() {
+  escondido_1.style.display = "flex"
+  escondido_2.style.display = "flex"
   escondido_3.style.display = "flex"
 });
 
