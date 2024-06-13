@@ -5,15 +5,19 @@
 /* Whatsapp */
 .whats{
     position: fixed;
-    right: -350px;
+    right: -800px;
     bottom: 40px;
+    z-index: 99;
 }
 
 .whats img{
-    background-color: var(--roxo-escuro);
-    width: 20%;
-    border-radius: 100%;
-    box-shadow: var(--shadow);
+    width: 15%;
+    transition: 300ms;
+    cursor: pointer;;
+}
+
+.whats img:hover{
+    transform: scale(1.05);
 }
 
 /* Title */
@@ -184,10 +188,6 @@
     margin-top: 30px;
     display: flex;
     gap: 20px;
-}
-
-.btn-escolha a{
-    padding: 5px;
 }
 
 .btn-escolha button{
@@ -430,10 +430,12 @@
 .chamada h1{
     color: var(--laranja);
     font-size: 30px;
+    text-align: center;
 }
 
 .chamada p{
     color: var(--branco);
+    text-align: center;
 }
 
 .chamada button{
@@ -469,10 +471,14 @@
 
 .form{
     background-color: var(--branco);
-    width: 30%;
+    width: 400px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: var(--shadow);
+}
+
+.form h1{
+    color: var(--roxo);
 }
 
 form{
@@ -513,6 +519,10 @@ form button:hover{
 }
 
 @media (max-width: 750px) {
+    .whats{
+        right: -820px;
+    }
+    
     .title p{
         width: 100%;
     }
@@ -591,5 +601,9 @@ form button:hover{
     .btn-historia{
         display: flex;
         justify-content: center;
+    }
+
+    .form{
+        width: 100%;
     }
 }

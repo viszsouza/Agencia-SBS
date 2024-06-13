@@ -44,3 +44,14 @@ main p{
     width: 50%;
     text-align: justify;
 }
+
+@media (max-width: 750px) {
+    
+    .imagem img{
+        width: 100%;
+    }
+    
+    .textos{
+        width: 100%;
+    }
+}
