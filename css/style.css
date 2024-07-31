@@ -477,7 +477,7 @@
 }
 
 .form{
-    background-color: var(--branco);
+    background-color: var(--laranja);
     width: 400px;
     padding: 20px;
     border-radius: 20px;
@@ -497,21 +497,23 @@ form{
 }
 
 .form input{
-    background-color: var(--roxo);
+    background-color: var(--branco);
     width: 100%;
     padding: 10px 20px;
     border-radius: 10px;
-    color: var(--branco);
+    color: var(--roxo);
+    font-weight: 600;
     border: none;
     box-shadow: var(--shadow);
 }
 
 .form input::placeholder{
-    color: var(--branco);
+    color: #5a009bab;
+    font-weight: 600;
 }
 
 form button{
-    background-color: rgb(76, 234, 76);
+    background-color: var(--roxo);
     color: var(--branco);
     font-weight: bold;
     padding: 10px 30px;
